@@ -12,8 +12,10 @@ import codeforcesImg from '../assets/codeforces.webp';
 import codechefImg from '../assets/codechef.jpg';
 import gfgImg from '../assets/gfg.png';
 
+
 const API_URL = 'https://clist.by/api/v1/contest/';
-const API_KEY = 'tarun060803:f72f36f88a0e92adb2e844c64e93c3b49d588a0b';
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 
 const allowedPlatforms = [
     'codingninjas.com/codestudio',
